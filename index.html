@@ -536,7 +536,8 @@
 						<div class="container max880">					
 							
 							<!-- Contact Form -->
-							<form class="contact_form" action="https://formsubmit.co/thedevalx@gmail.com" method="POST" autocomplete="off">
+							<!-- <form class="contact_form" action="https://formsubmit.co/thedevalx@gmail.com" method="POST" autocomplete="off"> -->
+							<form class="contact_form" target="_blank" action="https://formsubmit.co/thedevalx@gmail.com" method="POST">
 								
 								<!--
 								 	Don't remove below code in avoid to work contact form properly.
@@ -550,30 +551,31 @@
 									<div class="items">
 										<div class="item half">
 											<div class="input_wrapper">
-												<input id="name" type="text" />
+												<input id="name" name="name" type="text" required/>
 												<span class="moving_placeholder">Name *</span>
 											</div>
 										</div>
 										<div class="item half">
 											<div class="input_wrapper">
-												<input id="email" type="email" />
+												<input id="email" name="email" type="email" required/>
 												<span class="moving_placeholder">Email *</span>
 											</div>
 										</div>
-										<div class="item">
+										<!-- <div class="item">
 											<div class="input_wrapper">
 												<input id="phone" type="phone" />
 												<span class="moving_placeholder">Phone</span>
 											</div>
-										</div>
+										</div> -->
 										<div class="item">
 											<div class="input_wrapper">
-												<textarea id="message"></textarea>
+												<textarea id="message" name="message" required></textarea>
 												<span class="moving_placeholder">Message</span>
 											</div>
 										</div>
 										<div class="item">
-											<a id="send_message" href="#">Send Message</a>
+											<!-- <a id="send_message" href="#">Send Message</a> -->
+											<button type="submit">Send Message</button>
 										</div>
 									</div>
 								</div>
