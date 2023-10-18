@@ -407,7 +407,7 @@
 					<div class="container">
 						<!-- Blog List -->
 						<div class="blog_list">
-							<ul class="gallery_zoom">
+							<ul class="">
 								<li>
 									<div class="item">
 										<div class="left_part">
@@ -537,7 +537,7 @@
 							
 							<!-- Contact Form -->
 							<!-- <form class="contact_form" action="https://formsubmit.co/thedevalx@gmail.com" method="POST" autocomplete="off"> -->
-							<form class="contact_form" target="_blank" action="https://formsubmit.co/thedevalx@gmail.com" method="POST">
+							<form class="contact_form" target="_blank" action="https://formsubmit.co/thedevalx@gmail.com" method="POST"  autocomplete="off">
 								
 								<!--
 								 	Don't remove below code in avoid to work contact form properly.
@@ -546,12 +546,14 @@
 								<div class="success" data-success="Your message has been received, we will contact you soon."></div>
 								<div class="empty_notice"><span>Please Fill Required Fields!</span></div>
 								<!-- -->
-								
+								<input type="hidden" name="_subject" value="New E-mail | Wooo!">
+								<input type="hidden" name="_next" value="https://devalx.eu/#contact">
 								<div class="items_wrap">
 									<div class="items">
 										<div class="item half">
 											<div class="input_wrapper">
 												<input id="name" name="name" type="text" required/>
+												<input type="hidden" name="_captcha" value="false">
 												<span class="moving_placeholder">Name *</span>
 											</div>
 										</div>
@@ -577,6 +579,7 @@
 											<!-- <a id="send_message" href="#">Send Message</a> -->
 											<button type="submit">Send Message</button>
 										</div>
+										
 									</div>
 								</div>
 							</form>
@@ -616,8 +619,7 @@
 <!-- Scripts -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
-<!-- magnific problem with blog -->
-<!-- <script type="text/javascript" src="js/magnific-popup.js"></script> -->
+<script type="text/javascript" src="js/magnific-popup.js"></script>
 <script type="text/javascript" src="js/onepage.js"></script>
 <script type="text/javascript" src="js/owl-carousel.js"></script>
 <script type="text/javascript" src="js/isotope.js"></script>
