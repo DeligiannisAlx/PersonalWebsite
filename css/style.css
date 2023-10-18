@@ -31,6 +31,7 @@ body{
 	letter-spacing: 0;
 	font-weight: 400;
 	color: #000;
+	/* background-color: #fff; */
 	
 	word-break: break-word;
 }
@@ -233,6 +234,7 @@ a:focus {
 	background-color: #fff;
 	padding: 110px 0px;
 	transition: transform .5s ease;
+	/* background-color: #fafafa; */
 }
 .rewall_fn_sidebar .sidebar_in{
 	min-width: 340px;
@@ -686,7 +688,7 @@ section{
 	padding: 7px 26px;
 	line-height: 1.6;
 	margin: 0 0 30px 30px;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
 }
 .fn_cs_info_items span{
