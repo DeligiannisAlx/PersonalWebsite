@@ -2530,7 +2530,7 @@ section {
 
 	/* Section spacing */
 	.about {
-		padding: 100px 0 82px;
+		padding: 40px 0 82px;
 	}
 
 	.biography {
@@ -2643,6 +2643,21 @@ section {
 	#send_message{
 		justify-content: center;
 	}
+
+	}
+    /* gia mobile na feugei h grammi prwtoy to skills */
+	.fn_cs_tabs .tab_header li:last-child:after {
+		content: none;
+	}
+}
+
+@media(min-width: 992px){
+	.mobile-footer{
+		display: none;
+	}
+}
+
+@media(max-width: 991px){
 	.mobile-footer{
 		background-color: #000;
 
@@ -2721,12 +2736,6 @@ section {
 		.desc a:hover {
 			border-color: (var(--main-color));
 		}
-	}
-}
-
-@media(min-width: 768px){
-	.mobile-footer{
-		display: none;
 	}
 }
 
