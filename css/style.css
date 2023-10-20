@@ -2644,12 +2644,14 @@ section {
 		justify-content: center;
 	}
 
-	}
-    /* gia mobile na feugei h grammi prwtoy to skills */
+	/* gia mobile na feugei h grammi prwtoy to skills */
 	.fn_cs_tabs .tab_header li:last-child:after {
 		content: none;
 	}
+
 }
+	
+
 
 @media(min-width: 992px){
 	.mobile-footer{
